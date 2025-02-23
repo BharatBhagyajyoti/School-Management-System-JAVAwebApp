@@ -53,6 +53,4 @@ git clone https://github.com/BharatBhagyajyoti/School-Management-System-JAVAwebA
 - Safalya Parida
 - Suraj Biswal
 
-## License
-This project is licensed under the MIT License.
 
