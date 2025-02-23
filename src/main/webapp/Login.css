@@ -1,0 +1,116 @@
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/Login.JPG');
+    background-size: cover;
+}
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    border: 2px solid white;
+    margin: 180px auto;
+    padding: 46px;
+    width: 23%;
+    border-radius: 28px;
+}
+
+.container button {
+    display: block;
+    width: 86%;
+    margin: 20px auto;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/Login.JPG');
+    background-size: cover;
+    filter: blur(5px); /* Blur effect applied only to the background image */
+    z-index: -1; /* Ensure the background image is behind other content */
+}
+
+
+
+
+select {
+    width: 100%; /* Make the select element full width */
+    padding: 10px; /* Add padding for better spacing */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #f1f1f1; /* Add background color */
+    color: #333; /* Change text color */
+    font-size: 16px; /* Change font size */
+    font-family: Arial, sans-serif; /* Specify font family */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Add hover effect */
+select:hover {
+    outline: none;
+    background-color: rgb(8, 55, 158); /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+    /* background-color: #FDC938;  */
+}
+
+/* Add focus effect */
+select:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add shadow on focus */
+}
+
+
+/* Style the button */
+.btn {
+    display: block; /* Make the button a block element */
+    width: 100%; /* Make the button full width */
+    padding: 10px; /* Add padding */
+    background-color: #FDC938; /* Yellow background color */
+    color: #000000; /* Black text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Font weight */
+    margin-bottom: 10px;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+}
+
+/* Add hover effect to button */
+.btn:hover {
+    background-color: rgb(8, 55, 158); /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+}
+
+.btn a {
+    /* Remove default link styles */
+    color: inherit; /* Inherit button text color */
+    text-decoration: none; /* Remove underline */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    cursor: pointer; /* Set cursor to pointer on hover */
+  }
+  

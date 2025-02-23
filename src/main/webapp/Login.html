@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in page</title>
+    
+</head>
+<link rel="stylesheet" href="Login.css">
+
+<body>
+   <!-- <di -->
+   <div class="container">
+         <h1 align="center">Log in</h1>
+         <form id="loginform" method="post">
+            
+            <select name="role" id="role">
+                <option value="Admin.jsp">Admin</option>
+                <option value="T_login.jsp">Teacher</option>
+                <option value="Login.jsp">Student</option>
+                
+            </select>
+            <!-- <button type="submit" class="btn">Submit</button> -->
+            <button class="btn">Submit</button>
+            <!-- <button type="submit" class="btn">Submit </button> -->
+            <!-- <a href="Registration_form.html" target="_blank" value="Submit" class="btn"></a> -->
+            <!-- <a href="Registration_form.html" target="_blank" value="Submit" class="btn"> Submit</a> -->
+         </form>
+   </div>
+   
+   
+   <!-- Helps to open the jsp page from the html -->
+    <script>
+    document.getElementById('loginform').addEventListener('submit', function(event) {
+        var roleSelect = document.getElementById('role');
+        var selectedRole = roleSelect.options[roleSelect.selectedIndex].value;
+        if (selectedRole === '') {
+            event.preventDefault(); // Prevent form submission if no role is selected
+        } else {
+            this.action = selectedRole; // Set the form action to the selected role
+        }
+    });
+   </script>
+   
+</body>
+</html>
