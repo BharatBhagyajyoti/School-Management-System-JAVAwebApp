@@ -18,7 +18,7 @@ A full-stack web application developed for "Saraswati Shishu Vidya Mandir, Bania
 - **Database:** MySQL, JDBC for connectivity
 - **Server:** Apache Tomcat
 - **Design Pattern:** MVC (Model-View-Controller)
-- **Payment Integration** Razorpay payment gateway : https://github.com/BharatBhagyajyoti/School-Management-System-JAVAwebApp
+- **Payment Integration** Razorpay payment gateway : https://github.com/BharatBhagyajyoti/RazorpayIntegration-SchoolManagementSysten
 
 ## Installation
 1. **Clone the repo:**
